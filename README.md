@@ -1,10 +1,10 @@
 # js.namespace
 
-Padronizações de nomes e organização de código.
-Escopos globais e locais.
-Uma variável sem a palavra reservada VAR será sempre GLOBAL.
-Primeiro declarações e depois atribuições(hosting).
-Declarando uma variavel e uma function elas se tornam atributos do objeto window.
+ - Padronizações de nomes e organização de código.
+ - Escopos globais e locais.
+ - Uma variável sem a palavra reservada VAR será sempre GLOBAL.
+ - Primeiro declarações e depois atribuições(hoisting).
+ - Declarando uma variável e uma function elas se tornam atributos do objeto window.
 
 OU seja, Namespace em Javascript é possível? Não só possível como é muito fácil e eficaz.  
 
