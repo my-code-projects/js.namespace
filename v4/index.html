@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tips JS - NameSpaces</title>
+
+	<style type="text/css">
+		a, a:hover, a:visited {text-decoration: none;color: #fff;}
+	</style>
+</head>
+<body>
+	<header>
+		<h1><a href="">Tips JS - NameSpaces</a></h1>
+	</header>
+
+	<div id="content">
+		<h3>Página Principal</h3>
+		<button adp-action="partial/partialOne.html"
+			adp-target="#content">Página 1</button>
+		<button adp-action="partial/partialTwo.html"
+			adp-target="#content">Página 2</button>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="mjs.js"></script>
+	<script type="text/javascript" src="mjs.ajax.js"></script>
+	<script type="text/javascript" src="mjs.action.js"></script>
+	<script type="text/javascript" src="mjs.bodycolor.js"></script>
+	<script type="text/javascript" src="mjs.fakemodule1.js"></script>
+	<script type="text/javascript" src="mjs.fakemodule2.js"></script>
+	<script type="text/javascript">
+		Mjs.loader.setupGlobal();
+		Mjs.loader.setupFragment('#content');
+	</script>
+</body>
+</html>
